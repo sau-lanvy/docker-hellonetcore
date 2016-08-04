@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{47AB05DD-AEE3-4863-A6D1-D7B160C12E5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3410668C-19FC-4A11-9799-8BBAD593174E}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HelloNetCore", "src\HelloNetCore\HelloNetCore.xproj", "{F9026435-6504-4836-8F36-1114C03FEC9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9026435-6504-4836-8F36-1114C03FEC9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9026435-6504-4836-8F36-1114C03FEC9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9026435-6504-4836-8F36-1114C03FEC9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9026435-6504-4836-8F36-1114C03FEC9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F9026435-6504-4836-8F36-1114C03FEC9F} = {47AB05DD-AEE3-4863-A6D1-D7B160C12E5B}
+	EndGlobalSection
+EndGlobal
